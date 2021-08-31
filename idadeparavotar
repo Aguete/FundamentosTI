@@ -1,0 +1,12 @@
+#!/bin/bash
+clear
+echo "Qual é o seu ano de nascimento?"
+
+read idade
+ 
+if [ $idade -lt 2005 ]
+then
+    echo "Você já pode votar"
+else
+    echo "Não pode votar ainda"
+fi
