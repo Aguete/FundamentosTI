@@ -1,0 +1,11 @@
+#!/bin/bash
+clear
+echo "Digite o número que deseja fatorar"
+echo
+read X
+
+if [ $x -eq $x 1
+
+then factor $X
+
+fi
