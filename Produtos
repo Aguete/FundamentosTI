@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "informe o número"
+read x
+
+MAIOR=$x
+MENOR=$x
+
+for((i=1;i<15;i++));
+do
+    echo "informe outro número"
+read x
+    if [ $X -gt $MAIOR I
+    then
+    MAIOR=$x
+    elif [ $x -lt $MENOR ]
+    then MENOR=$X
+fi
+done
+echo "O maior número é: 'SMAIOR""
