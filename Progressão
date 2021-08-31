@@ -1,0 +1,20 @@
+#!/bin/bash
+clear
+echo "selecione o número que você quer que 1 chegue"
+read x
+for((i=1;i<=x; i++))
+do
+    echo $i
+done
+if [ $x -lt 0 ]
+then
+echo "esse número não pode ser usado, escolha outro"
+break
+else
+echo "Sucesso!"
+fi
+read n
+for((i=1;i<=n; i++))
+do
+    echo $i
+done
